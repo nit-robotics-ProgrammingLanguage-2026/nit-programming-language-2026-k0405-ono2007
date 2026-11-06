@@ -1,6 +1,14 @@
 #include <stdio.h>
 
 int main(void) {
+    double x;
+    double a;
+    double r=4.0;
+    double p=3.141592;
+    scanf("%lf",&x);
+    a=360.0*x/(p*r);
+    printf("%f\n",a);
+    
     /* 課題0405: 車輪型ロボットを考える．車輪の半径をr/2[m]とする．このロボットを距離x[m]だけ走らせたい時，
      どれだけモーターを回転させればよいか，回転角度a [度]を求めるプログラムを作成せよ．ただし，
 						    r=4;
